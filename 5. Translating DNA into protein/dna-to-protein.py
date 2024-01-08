@@ -76,7 +76,6 @@ codon_table_short = {
 #codons = [sequence[i:i+3] for i in range(0, len(sequence), 3)]
 
 # Main function
-
 def dna_to_protein(sequence, codon_table_short):
     if len(sequence) % 3 == 0:
         protein = ''
